@@ -70,6 +70,13 @@ input {
   background-color: #76c7ad;
 }
 
+.add-form button:disabled {
+  background-color: #ccc;
+  color: #777;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
 .list {
   background-color: #5a3e2b;
   color: #ffebb3;
@@ -129,4 +136,8 @@ input[type="checkbox"] {
   text-align: center;
   font-weight: 700;
   padding: 3.2rem 0;
+}
+
+.packed {
+    text-decoration: line-through;
 }
